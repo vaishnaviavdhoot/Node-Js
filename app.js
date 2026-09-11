@@ -16,10 +16,16 @@
 // console.log(frames)
 // console.log(window);
 
+
+
+// import { printName } from './first.js';
 require('./xyz');
+const data =require('./data.json');
 const {multiply, calculateSum, x} = require('./calculate');
 // const {x,calculateSum} = require('./calculate/sum');
 var name ="vasihnavi";
 console.log(calculateSum(10, 20));
 console.log(multiply(10, 20));
 console.log(x);
+console.log(data);
+// console.log(printName("Vaishnavi Avadhoot"));
